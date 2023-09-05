@@ -129,5 +129,15 @@
     z-index: 3;
 }
 
+.teeth--up--bright, .teeth--down--bright{
+    background-color: var(--bright-teeth);
+    position: absolute;
+}
+
+.teeth--up--bright{
+    width: 55px;
+    height: 4px;
+}
+
 
 
