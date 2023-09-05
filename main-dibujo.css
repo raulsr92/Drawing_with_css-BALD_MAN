@@ -162,3 +162,25 @@
     clip-path: path(
         'M 8 30 Q 8,35 30,35 Q 53,35 53,30');
 }
+
+.ear-left{
+    width: 25px;
+    height: 35px;
+    position: absolute;
+    background-color: var(--skin);
+    left: -25px;
+    top: 60px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.ear-right{
+    width: 25px;
+    height: 35px;
+    position: absolute;
+    background-color: var(--skin);
+    right: -25px;
+    top: 60px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
