@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --skin: #f6c09c;
+    --background: #ed4042;
+    --red: #ed2860;
+    --dark-red: #680524;
+    --black: #00243a;
+    --white: #fff;
+  }
+  
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--background);
+}
+
+.head{
+    width: 120px;
+    height: 240px;
+    background-color: var(--skin);
+    border-radius: 100px;
+    position: relative;
+}
+
+.eye-left, .eye-right{
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    background-color: var(--white);
+    top: 60px;
+
+}
+
+.eye-left{
+    left: 31px;
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 15px;
+}
+
+.eye-right{
+    right: 31px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 13px;
+
+}
