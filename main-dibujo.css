@@ -206,3 +206,14 @@
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
 }
+
+.tongue{
+    width: 30px;
+    height: 15px;
+    background-color: var(--red);
+    position: absolute;
+    left: calc(50% - 15px);
+    top: 15px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
