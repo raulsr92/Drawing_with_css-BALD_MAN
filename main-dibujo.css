@@ -100,3 +100,14 @@
     border-bottom-left-radius: 100px;
     bottom: 0;
 }
+
+.mouth{
+    position: absolute;
+    width: 60px;
+    height: 35px;
+    background-color: var(--dark-red);
+    top: 30px;
+    left: calc(50% - 30px);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
