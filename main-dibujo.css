@@ -184,3 +184,25 @@
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
 }
+
+.ear-left-inner{
+    width: 15px;
+    height: 20px;
+    background-color: var(--skin-shadow);
+    position: absolute;
+    right: 0;
+    top: 8px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.ear-right-inner{
+    width: 15px;
+    height: 20px;
+    background-color: var(--skin-shadow);
+    position: absolute;
+    left: 0;
+    top: 8px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
