@@ -13,6 +13,7 @@
     --dark-red: #680524;
     --black: #00243a;
     --white: #fff;
+    --bright-teeth:#DADFF2;
   }
   
 
@@ -110,4 +111,23 @@
     left: calc(50% - 30px);
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
+    z-index: 1;
 }
+
+.teeth--up, .teeth--down{
+    background-color: var(--white);
+    position: absolute;
+}
+
+.teeth--up{
+    width: 55px;
+    height: 10px;
+    top: 30px;
+    left: calc(50% - 27.5px);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 3;
+}
+
+
+
