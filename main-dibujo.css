@@ -14,6 +14,8 @@
     --black: #00243a;
     --white: #fff;
     --bright-teeth:#DADFF2;
+    --t-shirt:#2E5EA0;
+    --extra1:#F9E79F;
   }
   
 
@@ -221,11 +223,44 @@
     border-top-left-radius: 100px;
 }
 
-
 .neck{
     width: 90px;
     height: 90px;
     background-color: var(--skin);
     position: absolute;
     top: 60%;
+}
+
+.t-shirt{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 110px;
+    justify-content: space-between;
+    left: calc(50% - 55px);
+}
+
+.t-shirt-part1, .t-shirt-part2{
+    width: 50px;
+    height: 20px;
+    background-color: var(--t-shirt);
+    position: relative;
+}
+
+.button1, .button2{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: var(--white);
+    border-radius: 50%;
+}
+
+.button1{
+    right: 5px;
+    top: calc(50% - 5px);
+}
+
+.button2{
+    left: 5px;
+    top: calc(50% - 5px);
 }
