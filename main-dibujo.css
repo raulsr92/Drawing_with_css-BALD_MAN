@@ -23,6 +23,8 @@
     align-items: center;
     height: 100vh;
     background-color: var(--background);
+    flex-direction: column;
+    position: relative;
 }
 
 .head{
@@ -31,6 +33,7 @@
     background-color: var(--skin);
     border-radius: 100px;
     position: relative;
+    z-index: 2;
 }
 
 .eye-left, .eye-right{
@@ -216,4 +219,13 @@
     top: 15px;
     border-top-right-radius: 100px;
     border-top-left-radius: 100px;
+}
+
+
+.neck{
+    width: 90px;
+    height: 90px;
+    background-color: var(--skin);
+    position: absolute;
+    top: 60%;
 }
