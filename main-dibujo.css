@@ -264,3 +264,20 @@
     left: 5px;
     top: calc(50% - 5px);
 }
+
+.eyebrow-left, .eyebrow-right{
+    width: 35px;
+    height: 10px;
+    top:48px;
+    background-color: var(--black);
+    position: absolute;
+    border-radius: 10px;
+}
+
+.eyebrow-left{
+    left: 24px;
+}
+
+.eyebrow-right{
+    right: 24px;
+}
